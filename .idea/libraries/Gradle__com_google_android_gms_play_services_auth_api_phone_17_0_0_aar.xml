@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-auth-api-phone:17.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b4d9383c9b6158f28b3248233a9680c/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b4d9383c9b6158f28b3248233a9680c/jetified-play-services-auth-api-phone-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b4d9383c9b6158f28b3248233a9680c/jetified-play-services-auth-api-phone-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/aeda3e0b1e79cbcebad14b05a7359240/jetified-play-services-auth-api-phone-17.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

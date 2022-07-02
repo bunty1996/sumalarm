@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/main_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        tools:context="com.security.app.MainActivity">
+
+        <TextView
+            android:id="@+id/tVDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tVStatusLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tVDevice"
+            android:text="Status:"
+            android:textColor="@color/color_text_primary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tVStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tVDevice"
+            android:layout_toRightOf="@+id/tVStatusLabel"
+            android:text="Normal"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tVOnline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tVDevice"
+            android:layout_alignParentRight="true"
+            android:text="ONLINE"
+            android:textColor="@color/green"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

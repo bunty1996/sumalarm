@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvDisplayName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/blue"
+            android:textSize="@dimen/primary_text_size" />
+
+        <TextView
+            android:id="@+id/tVtemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="76.5F"
+            android:textColor="@color/black"
+            android:textSize="@dimen/primary_text_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tVSensorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Level Sensor Calibrated"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tVLevelSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Level Sensor Calibrated"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/lLsensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/alarmLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tVAlarmBellowlbl"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="@string/alarm_bellow"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:id="@+id/tVAlarmAbovelbl"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="@string/alarm_above"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tVAlarmBellow"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/edt_field_bg"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:id="@+id/tVAlarmAbove"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/edt_field_bg"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tVAlarmInput"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:drawablePadding="10dp"
+            android:elevation="1dp"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:padding="7dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/primary_text_size"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/linear_delayTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.6"
+                android:elevation="1dp"
+                android:gravity="end"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="Delay of Temprature Alarms"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_delay_temprature"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <!--                <ImageView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_alignParentRight="true"-->
+                <!--                    android:layout_centerVertical="true"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    app:srcCompat="@drawable/ic_arrow_down" />-->
+
+            </RelativeLayout>
+
+            <!--<TextView
+                android:id="@+id/txt_delay_temprature"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/edt_field_bg"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_offsetEquation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:elevation="1dp"
+                android:gravity="end|center"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="Offset Equation :"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:id="@+id/txt_offset_equation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:elevation="1dp"
+                android:gravity="start|center"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_temp_operation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.55"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical"
+                        android:layout_weight="0.7"
+                        android:elevation="1dp"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:text="Temprature Offset : "
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/edt_temprature"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/edt_field_bg"
+                        android:elevation="1dp"
+                        android:gravity="center_vertical"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:padding="7dp"
+                        android:text="00"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.45"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="0.5"
+                        android:elevation="1dp"
+                        android:gravity="start"
+                        android:maxLines="1"
+                        android:text="Operation : "
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/edt_field_bg"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spinner2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                        <TextView
+                            android:id="@+id/txt_spin_operation"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/edt_field_bg"
+                            android:drawableRight="@drawable/ic_arrow_down"
+                            android:drawablePadding="8dp"
+                            android:elevation="1dp"
+                            android:gravity="center_vertical"
+                            android:hint=""
+                            android:maxLines="1"
+                            android:padding="7dp"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+
+                        <!--                <ImageView-->
+                        <!--                    android:layout_width="wrap_content"-->
+                        <!--                    android:layout_height="wrap_content"-->
+                        <!--                    android:layout_alignParentRight="true"-->
+                        <!--                    android:layout_centerVertical="true"-->
+                        <!--                    android:layout_gravity="center"-->
+                        <!--                    app:srcCompat="@drawable/ic_arrow_down" />-->
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/txt_spin_operation"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="40dp"-->
+                <!--                    android:layout_marginLeft="5dp"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:background="@drawable/edt_field_bg"-->
+                <!--                    android:drawableRight="@drawable/ic_arrow_down"-->
+                <!--                    android:drawablePadding="10dp"-->
+                <!--                    android:elevation="1dp"-->
+                <!--                    android:gravity="center_vertical"-->
+                <!--                    android:hint=""-->
+                <!--                    android:maxLines="1"-->
+                <!--                    android:padding="7dp"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textSize="@dimen/primary_text_size" />-->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cBVoice"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="@string/text"
+                android:textAllCaps="true"
+                android:textSize="@dimen/primary_text_size" />
+
+
+            <CheckBox
+                android:id="@+id/cBSiren"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="@string/siren"
+                android:textSize="@dimen/primary_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cBEmailAndText"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="@string/emailadd"
+                android:textAllCaps="true"
+                android:textSize="@dimen/primary_text_size" />
+
+
+            <CheckBox
+                android:id="@+id/cBRelay"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="@string/relay"
+                android:textSize="@dimen/primary_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lLTempUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tVCelcious"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/white_with_blue_border_left"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/Celcius"
+                android:textColor="@color/blue" />
+
+            <TextView
+                android:id="@+id/tVFehrenheit"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/blue_right"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/Fehrenheit"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="10dp"
+            android:background="#B7B7B7"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/linear_relativeHumidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Relative Humidity : "
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/txt_relativeHumidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/edt_humidity1"-->
+                <!--                    android:layout_width="0dp"-->
+                <!--                    android:layout_height="40dp"-->
+                <!--                    android:layout_marginLeft="5dp"-->
+                <!--                    android:layout_marginRight="5dp"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:background="@drawable/edt_field_bg"-->
+                <!--                    android:drawableRight="@drawable/ic_arrow_down"-->
+                <!--                    android:drawablePadding="10dp"-->
+                <!--                    android:elevation="1dp"-->
+                <!--                    android:gravity="center_vertical"-->
+                <!--                    android:hint=""-->
+                <!--                    android:maxLines="1"-->
+                <!--                    android:padding="7dp"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textSize="@dimen/primary_text_size" />-->
+
+                <EditText
+                    android:id="@+id/edt_humidity1"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:elevation="1dp"
+                    android:inputType="numberDecimal"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/edt_humidity2"-->
+                <!--                    android:layout_width="0dp"-->
+                <!--                    android:layout_height="40dp"-->
+                <!--                    android:layout_marginLeft="5dp"-->
+                <!--                    android:layout_marginRight="5dp"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:background="@drawable/edt_field_bg"-->
+                <!--                    android:drawableRight="@drawable/ic_arrow_down"-->
+                <!--                    android:drawablePadding="10dp"-->
+                <!--                    android:elevation="1dp"-->
+                <!--                    android:gravity="center_vertical"-->
+                <!--                    android:hint=""-->
+                <!--                    android:maxLines="1"-->
+                <!--                    android:padding="7dp"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textSize="@dimen/primary_text_size" />-->
+
+                <EditText
+                    android:id="@+id/edt_humidity2"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_delay_humidityAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.6"
+                    android:elevation="1dp"
+                    android:gravity="end"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="Delay of Humidity Alarms"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txt_spin_HumidityAlarm"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="10dp"
+        android:background="#B7B7B7" />
+
+</LinearLayout>

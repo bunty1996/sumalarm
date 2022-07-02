@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:fbcore:0.14.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90a1fbc9870c5f1eae5eddfe7c46e2e2/jetified-fbcore-0.14.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90a1fbc9870c5f1eae5eddfe7c46e2e2/jetified-fbcore-0.14.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90a1fbc9870c5f1eae5eddfe7c46e2e2/jetified-fbcore-0.14.1/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/res" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/7c12d545a37606eb45a6243fdd02df31/jetified-fbcore-0.14.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.14.1/b802a2dda4c197fe24d9a82ed4dc45835e389419/fbcore-0.14.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.14.1/b802a2dda4c197fe24d9a82ed4dc45835e389419/fbcore-0.14.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.14.1/b802a2dda4c197fe24d9a82ed4dc45835e389419/fbcore-0.14.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.14.1/79e04d63db48e9fe0110c67d4b96785a2bd33bf5/fbcore-0.14.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.14.1/79e04d63db48e9fe0110c67d4b96785a2bd33bf5/fbcore-0.14.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.facebook.fresco/fbcore/0.14.1/79e04d63db48e9fe0110c67d4b96785a2bd33bf5/fbcore-0.14.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

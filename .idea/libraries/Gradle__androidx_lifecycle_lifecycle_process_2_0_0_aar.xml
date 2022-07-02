@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-process:2.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4d9ea6fc7a1f73c12b753e7fcfe31f5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4d9ea6fc7a1f73c12b753e7fcfe31f5/jetified-lifecycle-process-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4d9ea6fc7a1f73c12b753e7fcfe31f5/jetified-lifecycle-process-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/e7e6dab2f177fb0cb83f1f2f37c5c252/jetified-lifecycle-process-2.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.0.0/8987183ddf04ab7f340753ad5d6ceb4ba53e4b37/lifecycle-process-2.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.0.0/8987183ddf04ab7f340753ad5d6ceb4ba53e4b37/lifecycle-process-2.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.0.0/8987183ddf04ab7f340753ad5d6ceb4ba53e4b37/lifecycle-process-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

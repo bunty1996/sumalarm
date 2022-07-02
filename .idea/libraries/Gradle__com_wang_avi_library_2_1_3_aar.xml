@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wang.avi:library:2.1.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a766d76c6c3a3d41523b49a07523e58/jetified-library-2.1.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a766d76c6c3a3d41523b49a07523e58/jetified-library-2.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a766d76c6c3a3d41523b49a07523e58/jetified-library-2.1.3/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/2511931fd1b94d06b0268fa73134fd3f/jetified-library-2.1.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wang.avi/library/2.1.3/f3ea0c1e56a7eb8b5c0f8ced5f0adde51d4b609e/library-2.1.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.wang.avi/library/2.1.3/f3ea0c1e56a7eb8b5c0f8ced5f0adde51d4b609e/library-2.1.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.wang.avi/library/2.1.3/f3ea0c1e56a7eb8b5c0f8ced5f0adde51d4b609e/library-2.1.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wang.avi/library/2.1.3/b24ad2ac7fd480af6dc1d0302f5328b46c586200/library-2.1.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.wang.avi/library/2.1.3/b24ad2ac7fd480af6dc1d0302f5328b46c586200/library-2.1.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.wang.avi/library/2.1.3/b24ad2ac7fd480af6dc1d0302f5328b46c586200/library-2.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.intuit.sdp:sdp-android:1.0.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ddb79c7fe1862c299fb2d499461b082/jetified-sdp-android-1.0.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ddb79c7fe1862c299fb2d499461b082/jetified-sdp-android-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ddb79c7fe1862c299fb2d499461b082/jetified-sdp-android-1.0.6/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/res" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/res" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/20d2e420765503c6f49d97ecb6aa0470/jetified-sdp-android-1.0.6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\VLOGIC\.android\build-cache\9ecc6bf61eb72cfae1e67d5aac3a60a908e945d2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="9068775bb0941e0fc1d4ff9adbf5d73475794955">
+        <dex dex="D:\backup\LevelSenseGithub\sample\build\intermediates\pre-dexed\shopify\debug\classes_a9cf54563708449f141e5d91c2de2704f278f0b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\backup\LevelSenseGithub\GraphView-master\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="88151836e898847ae337997f4d32d5288f57bc71">
+        <dex dex="D:\backup\LevelSenseGithub\sample\build\intermediates\pre-dexed\shopify\debug\classes_3927ca6ebb1e5b62ef6d29e38f11c1f7f5b9b3dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\New folder\LevelSenseGithub\LevelSenseGithub\GraphView-master\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.3"
+        sha1="88151836e898847ae337997f4d32d5288f57bc71">
+        <dex dex="D:\New folder\LevelSenseGithub\LevelSenseGithub\sample\build\intermediates\pre-dexed\shopify\debug\classes_3548e88c5718a68784ab8c4914c5d29bc33aabbd.jar" />
+    </item>
+
+</items>

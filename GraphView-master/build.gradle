@@ -1,0 +1,83 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.3'
+        //classpath 'com.android.tools.build:gradle:3.6.1'
+        //classpath 'com.android.tools.build:gradle:3.4.0'
+        //classpath 'com.android.tools.build:gradle:3.4.0'
+
+        /*
+        //Add the Google Services plugin (check for v3.1.2 or higher).
+           classpath 'com.google.gms:google-services:4.3.3'
+         //Add the Fabric Crashlytics plugin.
+           classpath 'io.fabric.tools:gradle:1.31.2'
+           */
+
+    }
+}
+
+task wrapper(type: Wrapper) {
+    //gradleVersion = '5.4.1'
+    gradleVersion = '3.5.0'
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    /*compileSdkVersion androidConfig.compileSdkVersion
+      buildToolsVersion androidConfig.buildToolsVersion*/
+    /*buildToolsVersion '23.0.2'
+      compileSdkVersion 28*/
+    buildToolsVersion '28.0.3'
+    compileSdkVersion 30
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 8
+        versionName "1.0.7"
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    lintOptions {
+        abortOnError false
+
+    }
+
+}
+
+dependencies {
+    //compile 'com.android.support:support-v4:28.1.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    /* implementation 'com.jakewharton:butterknife:9.0.0-rc2'
+     annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc2'*/
+    // implementation  'com.jjoe64:graphview:4.2.1'
+}
+
+//this is used to generate .jar files and push to maven repo
+//This is the actual solution, as in http://stackoverflow.com/a/19037807/1002054
+task clearJar(type: Delete) {
+    delete 'build/outputs/myCompiledLibrary.jar'
+}
+
+task makeJar(type: Copy) {
+    from('build/intermediates/bundles/release/')
+    into('build/outputs/')
+    include('classes.jar')
+    rename('classes.jar', 'myCompiledLibrary.jar')
+}
+
+makeJar.dependsOn(clearJar, build)
+
+//apply from: './maven_push.gradle'

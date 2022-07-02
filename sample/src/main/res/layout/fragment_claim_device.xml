@@ -1,0 +1,156 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/parent_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/claim_text"
+            android:textColor="#000000"
+            android:textSize="@dimen/primary_text_size" />
+
+        <ImageView
+            android:id="@+id/claim_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/claim_note"
+            android:textColor="#000000"
+            android:textSize="@dimen/primary_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/select_your_colour_codes"
+            android:textColor="#151515"
+            android:textSize="@dimen/primary_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/power"
+            android:textColor="#151515"
+            android:textSize="18sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVPower"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:elevation="1dp"
+            android:gravity="center_vertical"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:text="------"
+            android:textColor="#292929"
+            android:textSize="@dimen/primary_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cloud"
+            android:textColor="#151515"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVCloud"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:elevation="1dp"
+            android:gravity="center_vertical"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:text="------"
+            android:textColor="#292929"
+            android:textSize="@dimen/primary_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calibrate"
+            android:textColor="#151515"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVCalibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:elevation="1dp"
+            android:gravity="center_vertical"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:text="------"
+            android:textColor="#292929"
+            android:textSize="@dimen/primary_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alarm"
+            android:textColor="#151515"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tVAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:elevation="1dp"
+            android:gravity="center_vertical"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:text="------"
+            android:textColor="#292929"
+            android:textSize="@dimen/primary_text_size" />
+
+        <Button
+            android:id="@+id/claim_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/blue_button_selector"
+            android:text="@string/claim_device"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/allow_up_txt"
+            android:textColor="#000000"
+            android:textSize="@dimen/primary_text_size" />
+
+
+    </LinearLayout>
+    <include layout="@layout/progress_dialog_loader" />
+</RelativeLayout>
+</ScrollView>

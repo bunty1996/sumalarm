@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-measurement-connector:17.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2112e1276f2fc30733c7740ac83d8d2/jetified-firebase-measurement-connector-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2112e1276f2fc30733c7740ac83d8d2/jetified-firebase-measurement-connector-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d2112e1276f2fc30733c7740ac83d8d2/jetified-firebase-measurement-connector-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/e8e2c80ebf4ed7648a63dfaf64953d16/jetified-firebase-measurement-connector-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/e8e2c80ebf4ed7648a63dfaf64953d16/jetified-firebase-measurement-connector-17.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/e8e2c80ebf4ed7648a63dfaf64953d16/jetified-firebase-measurement-connector-17.0.0/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/9926e857fafda2fb29284bc8b82da08d/jetified-firebase-measurement-connector-17.0.0/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/9926e857fafda2fb29284bc8b82da08d/jetified-firebase-measurement-connector-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/9926e857fafda2fb29284bc8b82da08d/jetified-firebase-measurement-connector-17.0.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2a249c8a8556f5bd4061b2b0c1cf2ed/jetified-firebase-measurement-connector-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2a249c8a8556f5bd4061b2b0c1cf2ed/jetified-firebase-measurement-connector-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f2a249c8a8556f5bd4061b2b0c1cf2ed/jetified-firebase-measurement-connector-17.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/cc0e7b7e46af94fb0bfb8de513e4a525/jetified-firebase-measurement-connector-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/cc0e7b7e46af94fb0bfb8de513e4a525/jetified-firebase-measurement-connector-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/cc0e7b7e46af94fb0bfb8de513e4a525/jetified-firebase-measurement-connector-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d171f9acd2f712fe308b0f5b1c360d8a/jetified-firebase-measurement-connector-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d171f9acd2f712fe308b0f5b1c360d8a/jetified-firebase-measurement-connector-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d171f9acd2f712fe308b0f5b1c360d8a/jetified-firebase-measurement-connector-17.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

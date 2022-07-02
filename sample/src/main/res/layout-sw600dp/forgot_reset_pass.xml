@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_common"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/white"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+       <!-- app:contentInsetStart="0dp"-->
+
+        <TextView
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toolbar Title"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+        <ImageView
+            android:id="@+id/toolbarBackImg"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:src="@drawable/ic_launch_logo"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/otp"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="false"
+                    android:textSize="14dp"/>
+
+                <EditText
+                    android:id="@+id/forgotPasswordOtp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edit_border_background"
+                    android:hint="@string/enter_otp"
+                    android:padding="10dp"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_pass"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="false"
+                    android:textSize="14dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:id="@+id/forgotPasswordEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:background="@drawable/edit_border_background"
+                        android:hint="@string/enter_new_pass"
+                        android:maxLines="1"
+                        android:padding="10dp"/>
+
+                    <ImageView
+                        android:id="@+id/new_password_eye_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_eye_unselected"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/confirm_pass"
+                    android:textColor="@color/blue"
+                    android:textAllCaps="false"
+                    android:textSize="14dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:id="@+id/confirmPasswordEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:background="@drawable/edit_border_background"
+                        android:hint="@string/enter_confirm_pass"
+                        android:maxLines="1"
+                        android:padding="10dp"/>
+
+                    <ImageView
+                        android:id="@+id/confirm_password_eye_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/ic_eye_unselected"/>
+
+                </RelativeLayout>
+
+
+                <Button
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/forgotResetPasswordSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/blue_button_selector"
+                    android:padding="10dp"
+                    android:text="@string/send"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+            <include layout="@layout/progress_dialog_loader" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

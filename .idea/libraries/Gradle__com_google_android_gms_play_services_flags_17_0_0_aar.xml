@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-flags:17.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f158eb75fb3bb06053b8c8dd2738125/jetified-play-services-flags-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f158eb75fb3bb06053b8c8dd2738125/jetified-play-services-flags-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f158eb75fb3bb06053b8c8dd2738125/jetified-play-services-flags-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/res" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/9ac872093b7e3462504491da641c7482/jetified-play-services-flags-17.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

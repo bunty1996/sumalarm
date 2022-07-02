@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:clickable="false"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/custom_pb"
+        style="@style/AVLoadingIndicatorView.Large"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:indicatorColor="@color/blue"
+        app:indicatorName="BallSpinFadeLoaderIndicator" />
+
+    <TextView
+        android:layout_below="@+id/custom_pb"
+        android:layout_width="match_parent"
+        android:id="@+id/custom_text"
+        android:visibility="gone"
+        style="@style/AVLoadingIndicatorView.Large"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:textSize="@dimen/_12sdp"
+        android:text="hwdhweo jhfioheiof ijfpoheprfhe mpjfropej mporfjoejg orkgf[ekrtg[prk [ekr[pkerp[g"
+        android:gravity="center"/>
+
+    <!--app:indicatorColor="@color/red_500"-->
+
+    <LinearLayout
+        android:id="@+id/loader_view_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:indeterminateDrawable="@drawable/custome_progress"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="25dp"
+            android:background="?colorPrimary"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/message_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

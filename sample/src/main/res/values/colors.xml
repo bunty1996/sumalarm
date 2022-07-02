@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f7f6f6</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#006EBE</color>
+    <color name="text_grey">#6c6c6c</color>
+    <color name="snackbar_error_background">#ff0e0e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#006EBE</color>
+    <color name="blue_dark">#0362a7</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="red_500">#ea1c0d</color>
+    <color name="color_text_primary">#717171</color>
+    <color name="selected_color">#E6F0FF</color>
+    <color name="black">#000000</color>
+    <color name="green">#32D232</color>
+    <color name="bright_green">#a4c639</color>
+    <color name="red_">#FF0000</color>
+    <color name="blue_">#0000FF</color>
+    <color name="white_">#dfdfdf</color>
+    <color name="snow_white">#FFFAFA</color>
+    <color name="green_">#008000</color>
+    <color name="light_green_">#90EE90</color>
+    <color name="yellow_">#FFFF00</color>
+    <color name="purple">#800080</color>
+    <color name="gray_color_background">#c3c3c3</color>
+    <color name="btn_green_color">#20c275</color>
+    <color name="btn_red_color">#e9122a</color>
+    <color name="skyblue">#8103A9F4</color>
+<!--  //  <color name="skyblue">#006EBE</color>-->
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="@dimen/_3sdp"
+        android:id="@+id/articleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kdjfhefhfhifhie"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="@dimen/_14sdp"/>
+
+    <TextView
+        android:padding="@dimen/_3sdp"
+        android:id="@+id/articleCreatedDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kdjfhefhfhifhie"
+        android:textColor="@color/text_grey"
+        android:textStyle="normal"
+        android:textSize="@dimen/_10sdp"/>
+
+    <TextView
+        android:padding="@dimen/_3sdp"
+        android:id="@+id/articleDescrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kdjfhefhfhifhie"
+        android:textColor="@color/text_grey"
+        android:maxLines="3"
+        android:textStyle="normal"
+        android:textSize="@dimen/_10sdp"/>
+
+    <TextView
+        android:padding="@dimen/_3sdp"
+        android:id="@+id/articleReadMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/readMore"
+        android:textColor="@color/blue"
+        android:textStyle="normal"
+        android:maxLines="3"
+        android:textSize="@dimen/_10sdp"/>
+
+    <ImageView
+        android:id="@+id/articleImg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:src="@drawable/ic_article"/>
+
+    <View
+        android:padding="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/text_grey"
+       />
+
+</LinearLayout>

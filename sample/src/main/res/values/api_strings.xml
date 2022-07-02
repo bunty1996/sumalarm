@@ -1,0 +1,48 @@
+<resources>
+    <string name="api_login">v1/login</string>
+    <string name="api_forgot">v1/forgot_password</string>
+    <string name="api_logout">v1/user/auth/logout</string>
+    <string name="api_new_signup">v1/user/auth/onboarding_signup</string>
+    <string name="api_change_password">v1/user/my_profile/change_password</string>
+    <string name="api_notification_count">v1/notifications/get_notifications_count</string>
+    <string name="api_check_user_exists">v1/signup/checkuserexist</string>
+    <string name="api_signup">v1/signup</string>
+    <string name="api_activity">v1/activity</string>
+    <string name="api_activity_toggleLike">v1/activity/toggleLike</string>
+    <string name="api_get_device_list">v1/getDeviceList</string>
+    <string name="api_shopify_articles">v1/shopify/articles</string>
+    <string name="api_get_device">v1/getDevice</string>
+    <string name="api_edit_device">v1/editDevice</string>
+    <string name="api_get_user">v1/getUser</string>
+    <string name="api_edit_user">v1/editUser</string>
+    <string name="api_get_state">v1/getStateList</string>
+    <string name="api_get_country">v1/getCountryList</string>
+    <string name="api_deleteDevice">v1/deleteDevice</string>
+    <string name="api_getContactList">v1/getContactList</string>
+    <string name="api_getCellProviderList">v1/getCellProviderList</string>
+    <string name="api_deleteContact">v1/deleteContact</string>
+    <string name="api_addContact">v1/addContact</string>
+    <string name="api_editContact">v1/editContact</string>
+    <string name="api_claimDevice">v1/claimDevice</string>
+    <string name="api_getAlarmConfig">v2/getAlarmConfig</string>
+    <string name="api_getDeviceLogList">v2/getDeviceDataList</string>
+    <string name="api_getDeviceLogListV1">v1/getDeviceLogList</string>
+    <string name="api_testMail">v1/testMail</string>
+    <string name="api_testSms">v1/testSms</string>
+    <string name="api_registerUser">v1/registerUser</string>
+    <string name="api_registerUser_new">v2/registerUser</string>
+    <string name="api_calDown">v1/calDown</string>
+    <string name="api_calUp">v1/calUp</string>
+    <string name="api_resetCalibration">v1/resetCalibration</string>
+    <string name="resetPassword">v2/resetPassword</string>
+    <string name="api_sendOtp">v2/otp</string>
+    <!--<string name="resetPassword">v2/resetPassword</string>-->
+
+    <!--todo for new API's-->
+    <string name="api_twillio_email">v1/testMail</string>
+    <string name="api_twillio_sms">v1/testSms</string>
+    <string name="api_twillio_voice">v1/testVoice</string>
+    <!--//https://www.php.net/manual/en/timezones.asia.php-->
+    <string name="api_time_zone">v1/getTimezoneList</string>
+
+</resources>

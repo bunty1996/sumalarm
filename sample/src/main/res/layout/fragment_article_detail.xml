@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_5sdp"
+    android:orientation="vertical"
+    tools:context=".Fragment.ArticleDetailFragment">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="@dimen/_40sdp"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleTextColor="@color/blue"
+        app:contentInsetStart="0dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding="@dimen/_3sdp"
+                android:id="@+id/articleTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textSize="@dimen/_14sdp"/>
+
+            <TextView
+                android:padding="@dimen/_3sdp"
+                android:id="@+id/articleCreatedDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_grey"
+                android:textStyle="normal"
+                android:textSize="@dimen/_10sdp"/>
+
+            <TextView
+                android:padding="@dimen/_3sdp"
+                android:id="@+id/articleDescrp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_grey"
+                android:textStyle="normal"
+                android:textSize="@dimen/_10sdp"/>
+
+
+            <ImageView
+                android:id="@+id/articleImg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/progress_dialog_loader" />
+
+</RelativeLayout>

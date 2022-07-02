@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/webDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="We-re taking you to our website for checkout."
+        android:paddingStart="@dimen/default_padding"
+        android:paddingTop="@dimen/default_padding_half"
+        android:paddingEnd="@dimen/default_padding"
+        android:paddingBottom="@dimen/default_padding_half"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/taking_to_webcheckout" />
+
+    <TextView
+        android:id="@+id/webCancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="@string/cancel"
+        app:layout_constraintEnd_toStartOf="@+id/webProceed"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/webProceed"
+        app:layout_constraintTop_toBottomOf="@+id/webDescription"
+        android:paddingStart="@dimen/default_padding"
+        android:paddingTop="@dimen/default_padding_half"
+        android:paddingEnd="@dimen/default_padding"
+        android:paddingBottom="@dimen/default_padding_half"
+        android:textColor="@color/black"
+        tools:text="Cancel" />
+
+    <!--android:drawableStart="@drawable/ic_add_shopping_cart"-->
+
+    <TextView
+        android:id="@+id/webProceed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:gravity="center"
+        android:text="@string/proceed"
+        android:textColor="@color/black"
+        android:paddingStart="@dimen/default_padding"
+        android:paddingTop="@dimen/default_padding_half"
+        android:paddingEnd="@dimen/default_padding"
+        android:paddingBottom="@dimen/default_padding_half"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/webCancel"
+        app:layout_constraintTop_toBottomOf="@+id/webDescription"
+        tools:text="Proceed" />
+
+    <!--app:layout_constraintTop_toBottomOf="@+id/price"-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

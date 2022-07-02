@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tVEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:elevation="1dp"
+                android:hint="@string/email"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/first_name"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tVFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:elevation="1dp"
+                android:hint="@string/first_name"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/last_name"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tVLastName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:elevation="1dp"
+                android:hint="@string/last_name"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/address"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tVAddress"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="@string/address"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/city"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tVCity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="@string/city"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/postal_code"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tVpostalCode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="@string/postal_code"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/country"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tVcountry"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="@string/country"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="@string/state"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tVState"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="@string/state"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:text="@string/time_zone"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTimeZone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="@string/time_zone"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/blue_button_selector"
+                android:text="@string/submit"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/progress_dialog_loader" />
+
+</RelativeLayout>

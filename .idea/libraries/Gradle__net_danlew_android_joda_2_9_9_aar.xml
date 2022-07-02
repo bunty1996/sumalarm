@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="Gradle: net.danlew:android.joda:2.9.9@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ae9e430158651aabfe7f976b3b80ee9/jetified-android.joda-2.9.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ae9e430158651aabfe7f976b3b80ee9/jetified-android.joda-2.9.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ae9e430158651aabfe7f976b3b80ee9/jetified-android.joda-2.9.9/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/res" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/a09befd7caba80979f720efc8223b360/jetified-android.joda-2.9.9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.danlew/android.joda/2.9.9/f9f146ed54d34ee909c5019a884d5883a2b19af4/android.joda-2.9.9-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/net.danlew/android.joda/2.9.9/f9f146ed54d34ee909c5019a884d5883a2b19af4/android.joda-2.9.9-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/net.danlew/android.joda/2.9.9/f9f146ed54d34ee909c5019a884d5883a2b19af4/android.joda-2.9.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.danlew/android.joda/2.9.9/572edcfa53609fced9a70b85d8bacfbbe44b12c1/android.joda-2.9.9-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/net.danlew/android.joda/2.9.9/572edcfa53609fced9a70b85d8bacfbbe44b12c1/android.joda-2.9.9-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/net.danlew/android.joda/2.9.9/572edcfa53609fced9a70b85d8bacfbbe44b12c1/android.joda-2.9.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.room:room-testing:2.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb38838595aa806b6331d9cb3531374e/room-testing-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb38838595aa806b6331d9cb3531374e/room-testing-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb38838595aa806b6331d9cb3531374e/room-testing-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/res" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/ef43869a26d8d8ac9755ec1a254fabe1/room-testing-2.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.room/room-testing/2.0.0/11ea4a662f94d821e9fe069a3053ef7ebe0bef52/room-testing-2.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/androidx.room/room-testing/2.0.0/11ea4a662f94d821e9fe069a3053ef7ebe0bef52/room-testing-2.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/androidx.room/room-testing/2.0.0/11ea4a662f94d821e9fe069a3053ef7ebe0bef52/room-testing-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

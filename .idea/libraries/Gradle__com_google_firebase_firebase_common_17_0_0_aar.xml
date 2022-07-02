@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-common:17.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c71c91244ec2cf42ec96e09c597acea/jetified-firebase-common-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c71c91244ec2cf42ec96e09c597acea/jetified-firebase-common-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c71c91244ec2cf42ec96e09c597acea/jetified-firebase-common-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/cbb2ca9073c7a552cc891a59452cec4a/jetified-firebase-common-17.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/cbb2ca9073c7a552cc891a59452cec4a/jetified-firebase-common-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/cbb2ca9073c7a552cc891a59452cec4a/jetified-firebase-common-17.0.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/c381e12bf2e3b2457435d448e20aa81a/jetified-firebase-common-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/c381e12bf2e3b2457435d448e20aa81a/jetified-firebase-common-17.0.0/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/c381e12bf2e3b2457435d448e20aa81a/jetified-firebase-common-17.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/33f83b89f5ceb50bfd10306e58ca1775/jetified-firebase-common-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/33f83b89f5ceb50bfd10306e58ca1775/jetified-firebase-common-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/33f83b89f5ceb50bfd10306e58ca1775/jetified-firebase-common-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/d782d86f2d536b684122047dcad6e98d/jetified-firebase-common-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/d782d86f2d536b684122047dcad6e98d/jetified-firebase-common-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/d782d86f2d536b684122047dcad6e98d/jetified-firebase-common-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b647bba3702237a9735bda36bf5b103/jetified-firebase-common-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b647bba3702237a9735bda36bf5b103/jetified-firebase-common-17.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b647bba3702237a9735bda36bf5b103/jetified-firebase-common-17.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-common/17.0.0/349c0060f9e1890abe26ca798f0c37a68885b34c/firebase-common-17.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.google.firebase/firebase-common/17.0.0/349c0060f9e1890abe26ca798f0c37a68885b34c/firebase-common-17.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.google.firebase/firebase-common/17.0.0/349c0060f9e1890abe26ca798f0c37a68885b34c/firebase-common-17.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

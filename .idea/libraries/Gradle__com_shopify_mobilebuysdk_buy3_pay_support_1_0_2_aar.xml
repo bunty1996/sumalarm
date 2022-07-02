@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="Gradle: com.shopify.mobilebuysdk:buy3-pay-support:1.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21b53d6aacd25b63e1218fb5786908a2/jetified-buy3-pay-support-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21b53d6aacd25b63e1218fb5786908a2/jetified-buy3-pay-support-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/21b53d6aacd25b63e1218fb5786908a2/jetified-buy3-pay-support-1.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/6752c57dc0d65e51c40b17ad8c44a83a/jetified-buy3-pay-support-1.0.2/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/6752c57dc0d65e51c40b17ad8c44a83a/jetified-buy3-pay-support-1.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/6752c57dc0d65e51c40b17ad8c44a83a/jetified-buy3-pay-support-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/2c57a4a8d5d971cfa46dc68b8e357d04/jetified-buy3-pay-support-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/2c57a4a8d5d971cfa46dc68b8e357d04/jetified-buy3-pay-support-1.0.2/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/2c57a4a8d5d971cfa46dc68b8e357d04/jetified-buy3-pay-support-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d31e29466033231599ef273939f1806b/jetified-buy3-pay-support-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d31e29466033231599ef273939f1806b/jetified-buy3-pay-support-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d31e29466033231599ef273939f1806b/jetified-buy3-pay-support-1.0.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/4436c7ca5709d56bb49649ab52a2c36a/jetified-buy3-pay-support-1.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/4436c7ca5709d56bb49649ab52a2c36a/jetified-buy3-pay-support-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/4436c7ca5709d56bb49649ab52a2c36a/jetified-buy3-pay-support-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aff1b8a60d532f066907436c62ebff46/jetified-buy3-pay-support-1.0.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aff1b8a60d532f066907436c62ebff46/jetified-buy3-pay-support-1.0.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aff1b8a60d532f066907436c62ebff46/jetified-buy3-pay-support-1.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shopify.mobilebuysdk/buy3-pay-support/1.0.2/e218637c54edded9d06eb6a6cbefecf386e646a2/buy3-pay-support-1.0.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.shopify.mobilebuysdk/buy3-pay-support/1.0.2/e218637c54edded9d06eb6a6cbefecf386e646a2/buy3-pay-support-1.0.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.shopify.mobilebuysdk/buy3-pay-support/1.0.2/e218637c54edded9d06eb6a6cbefecf386e646a2/buy3-pay-support-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shopify.mobilebuysdk/buy3-pay-support/1.0.2/41ee2495612912c570b8b2c95dc13bd7184c1552/buy3-pay-support-1.0.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.shopify.mobilebuysdk/buy3-pay-support/1.0.2/41ee2495612912c570b8b2c95dc13bd7184c1552/buy3-pay-support-1.0.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.shopify.mobilebuysdk/buy3-pay-support/1.0.2/41ee2495612912c570b8b2c95dc13bd7184c1552/buy3-pay-support-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

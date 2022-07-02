@@ -1,0 +1,2 @@
+include ':sample', ':graphql-java-support', ':GraphView-master'
+project(':graphql-java-support').projectDir = new File('./libs/graphql_java_gen/support')

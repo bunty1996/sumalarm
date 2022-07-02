@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_common"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleTextColor="@color/blue"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toolbar Title"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+        <ImageView
+            android:id="@+id/toolbarBackImg"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/forgotEmailLinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:src="@drawable/ic_launch_logo"/>
+
+                    <TextView
+                        android:id="@+id/otpText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Enter the OTP you have got either on your email or registered mobile."
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:visibility="gone"
+                        android:textSize="@dimen/_12sdp"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email"
+                        android:textColor="@color/blue"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/_12sdp"/>
+
+                    <EditText
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:id="@+id/forgotPasswordEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_border_background"
+                        android:hint="Enter email"
+                        android:inputType="textEmailAddress"
+                        android:text="liomayer2@gmail.com"
+                        android:textSize="@dimen/_12sdp"
+                        android:padding="@dimen/_8sdp" />
+
+
+                    <EditText
+                        android:id="@+id/forgotPasswordOtp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:background="@drawable/edt_field_bg"
+                        android:hint="Enter otp"
+                        android:visibility="gone"
+                        android:padding="@dimen/_8sdp"
+                        android:textSize="@dimen/_12sdp"
+                        android:inputType="number" />
+
+                    <Button
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:id="@+id/forgotPasswordSubmit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/blue_button_selector"
+                        android:padding="@dimen/_8sdp"
+                        android:text="@string/getOtp"
+                        android:textSize="@dimen/_12sdp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <include layout="@layout/progress_dialog_loader" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

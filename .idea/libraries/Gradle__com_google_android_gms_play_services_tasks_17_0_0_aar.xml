@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-tasks:17.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a6d6c71165b95baae5c2ebb8c0d3b7e/jetified-play-services-tasks-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a6d6c71165b95baae5c2ebb8c0d3b7e/jetified-play-services-tasks-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a6d6c71165b95baae5c2ebb8c0d3b7e/jetified-play-services-tasks-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/res" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/768f2fbb7bb6ba87923a635d8f0a40d1/jetified-play-services-tasks-17.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

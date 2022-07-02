@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.apollographql.apollo:apollo-runtime:0.4.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/0.4.2/6ba2f042a34e9d70ac7d063bee5f5cd72599e32/apollo-runtime-0.4.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/0.4.2/6ba2f042a34e9d70ac7d063bee5f5cd72599e32/apollo-runtime-0.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/0.4.2/6ba2f042a34e9d70ac7d063bee5f5cd72599e32/apollo-runtime-0.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/0.4.2/723b272278144be1b4fe4e288b0b77cf5c2ed78/apollo-runtime-0.4.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/0.4.2/723b272278144be1b4fe4e288b0b77cf5c2ed78/apollo-runtime-0.4.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/0.4.2/723b272278144be1b4fe4e288b0b77cf5c2ed78/apollo-runtime-0.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/0.4.2/848c96bb9fb76a66b914c6115795efd0c477df25/apollo-runtime-0.4.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/0.4.2/848c96bb9fb76a66b914c6115795efd0c477df25/apollo-runtime-0.4.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.apollographql.apollo/apollo-runtime/0.4.2/848c96bb9fb76a66b914c6115795efd0c477df25/apollo-runtime-0.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

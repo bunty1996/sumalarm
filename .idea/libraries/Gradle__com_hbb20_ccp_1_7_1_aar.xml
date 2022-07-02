@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hbb20:ccp:1.7.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a916e3c6620f2c0d09223b1360144b7a/jetified-ccp-1.7.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a916e3c6620f2c0d09223b1360144b7a/jetified-ccp-1.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a916e3c6620f2c0d09223b1360144b7a/jetified-ccp-1.7.1/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/1f2ad23c4f1e92269308b130499b5294/jetified-ccp-1.7.1/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/1f2ad23c4f1e92269308b130499b5294/jetified-ccp-1.7.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/1f2ad23c4f1e92269308b130499b5294/jetified-ccp-1.7.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/d4ca4546eedad43ed611f054248479f1/jetified-ccp-1.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/d4ca4546eedad43ed611f054248479f1/jetified-ccp-1.7.1/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/d4ca4546eedad43ed611f054248479f1/jetified-ccp-1.7.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f208de93e2954fd3b2c38147327eaec5/jetified-ccp-1.7.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f208de93e2954fd3b2c38147327eaec5/jetified-ccp-1.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f208de93e2954fd3b2c38147327eaec5/jetified-ccp-1.7.1/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/2fd89e7d9c1f7d1560f5e26eaf322baa/jetified-ccp-1.7.1/res" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/2fd89e7d9c1f7d1560f5e26eaf322baa/jetified-ccp-1.7.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/2fd89e7d9c1f7d1560f5e26eaf322baa/jetified-ccp-1.7.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/74083312293e41df0cdd07bd2d88050b/jetified-ccp-1.7.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/74083312293e41df0cdd07bd2d88050b/jetified-ccp-1.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/74083312293e41df0cdd07bd2d88050b/jetified-ccp-1.7.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hbb20/ccp/1.7.1/2ff4c5c7f4bbde386d0a451bc6706101606d4612/ccp-1.7.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.hbb20/ccp/1.7.1/2ff4c5c7f4bbde386d0a451bc6706101606d4612/ccp-1.7.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.hbb20/ccp/1.7.1/2ff4c5c7f4bbde386d0a451bc6706101606d4612/ccp-1.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hbb20/ccp/1.7.1/ae7b7b14ef9a9578c5f412fe83afde0b6cb94b09/ccp-1.7.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.hbb20/ccp/1.7.1/ae7b7b14ef9a9578c5f412fe83afde0b6cb94b09/ccp-1.7.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.hbb20/ccp/1.7.1/ae7b7b14ef9a9578c5f412fe83afde0b6cb94b09/ccp-1.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

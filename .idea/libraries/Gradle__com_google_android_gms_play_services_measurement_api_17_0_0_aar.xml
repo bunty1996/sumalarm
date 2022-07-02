@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-measurement-api:17.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0439da6a52c542b3b2383ab68e6525c/jetified-play-services-measurement-api-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0439da6a52c542b3b2383ab68e6525c/jetified-play-services-measurement-api-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f0439da6a52c542b3b2383ab68e6525c/jetified-play-services-measurement-api-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/63ab372788d8e0366a88990e0980fbf2/jetified-play-services-measurement-api-17.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-api/17.0.0/eddfde12abd9ea91b4387ec5de4b842b644cc528/play-services-measurement-api-17.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-api/17.0.0/eddfde12abd9ea91b4387ec5de4b842b644cc528/play-services-measurement-api-17.0.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-api/17.0.0/eddfde12abd9ea91b4387ec5de4b842b644cc528/play-services-measurement-api-17.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

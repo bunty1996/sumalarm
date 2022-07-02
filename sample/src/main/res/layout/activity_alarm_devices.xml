@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/blue" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/waterlevel"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVWaterLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tVLevelSensor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:text="Level Sensor Calibrated"
+
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Temperature"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVtemperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="76.5F"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVAlarmBellowlbl"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/alarm_bellow"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVAlarmAbovelbl"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/alarm_above"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVAlarmBellow"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVAlarmAbove"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cBRelay"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/relay"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/cBSiren"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                     android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/siren"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cBEmailAndText"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/emailandtext"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/cBVoice"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/voice"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tVCelcious"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/white_with_blue_border_left"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/Celcius"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:id="@+id/tVFehrenheit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/blue_right"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/Fehrenheit"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#B7B7B7" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/relative_humidity"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVHumidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 76.5%"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVHumidityAlarmBellowlbl"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/alarm_bellow"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVHumidityAlarmAbovelbl"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/alarm_above"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVHumidityAlarmBellow"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVtHumidityVAlarmAbove"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cBHumidityRelay"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/relay"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/cBHumiditySiren"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/siren"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cBHumidityEmailAndText"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/emailandtext"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/cBHumidityVoice"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/voice"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#B7B7B7" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incoming_power"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVPowerGood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 76.5%"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVPDAlarmBellowlbl"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/alarm_bellow"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVPDAlarmAbovelbl"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/alarm_above"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVPDAlarmBellow"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVtPDVAlarmAbove"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cBPDRelay"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/relay"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/cBPDSiren"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/siren"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cBPDEmailAndText"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/emailandtext"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/cBPDVoice"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/voice"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#B7B7B7" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/leak_sensor"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVLeakSensor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Close"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVLSAlarmBellowlbl"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/alarm_bellow"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVLSAlarmAbovelbl"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/alarm_above"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVLSAlarmBellow"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVtLSVAlarmAbove"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cBLSRelay"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/relay"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/cBLSSiren"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                     android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/siren"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cBLSEmailAndText"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/emailandtext"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/cBLSVoice"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/voice"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#B7B7B7" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/leak_sensor"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVFloatSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Close"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVFSAlarmBellowlbl"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/alarm_bellow"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVFSAlarmAbovelbl"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/alarm_above"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tVFSAlarmBellow"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <TextView
+                    android:id="@+id/tVtFSVAlarmAbove"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edt_field_bg"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/ic_arrow_down"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cBFSRelay"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/relay"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/cBFSSiren"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/siren"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cBFSEmailAndText"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/emailandtext"
+                    android:textSize="@dimen/primary_text_size" />
+
+                <CheckBox
+                    android:id="@+id/cBFSVoice"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="@string/voice"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/blue_button_selector"
+                android:text="@string/submit"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/progress_dialog_loader" />
+
+</RelativeLayout>

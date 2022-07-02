@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tapadoo.android:alerter:1.0.7@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ccddbcd6414510ca981ccf297929e25/jetified-alerter-1.0.7/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ccddbcd6414510ca981ccf297929e25/jetified-alerter-1.0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ccddbcd6414510ca981ccf297929e25/jetified-alerter-1.0.7/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/c3bd0dce08151032ff00d4e4133118c5/jetified-alerter-1.0.7/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/c3bd0dce08151032ff00d4e4133118c5/jetified-alerter-1.0.7/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/c3bd0dce08151032ff00d4e4133118c5/jetified-alerter-1.0.7/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/8490290eb337784d55f07b9b5bc2d2ae/jetified-alerter-1.0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/8490290eb337784d55f07b9b5bc2d2ae/jetified-alerter-1.0.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/8490290eb337784d55f07b9b5bc2d2ae/jetified-alerter-1.0.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1d8e2ec4b47407bcf50d76d34b2e884/jetified-alerter-1.0.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1d8e2ec4b47407bcf50d76d34b2e884/jetified-alerter-1.0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d1d8e2ec4b47407bcf50d76d34b2e884/jetified-alerter-1.0.7/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/30a433a489cce9989887e694c3e90f14/jetified-alerter-1.0.7/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/30a433a489cce9989887e694c3e90f14/jetified-alerter-1.0.7/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/30a433a489cce9989887e694c3e90f14/jetified-alerter-1.0.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79d2ba31799c0ba466406aea31ace95c/jetified-alerter-1.0.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79d2ba31799c0ba466406aea31ace95c/jetified-alerter-1.0.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/79d2ba31799c0ba466406aea31ace95c/jetified-alerter-1.0.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tapadoo.android/alerter/1.0.7/d213beb3f8a48272dd06c316ffe8b710256ddd0b/alerter-1.0.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.tapadoo.android/alerter/1.0.7/d213beb3f8a48272dd06c316ffe8b710256ddd0b/alerter-1.0.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.tapadoo.android/alerter/1.0.7/d213beb3f8a48272dd06c316ffe8b710256ddd0b/alerter-1.0.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tapadoo.android/alerter/1.0.7/811aa01a06887ad232adc60be035d411fd04319c/alerter-1.0.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.tapadoo.android/alerter/1.0.7/811aa01a06887ad232adc60be035d411fd04319c/alerter-1.0.7-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.tapadoo.android/alerter/1.0.7/811aa01a06887ad232adc60be035d411fd04319c/alerter-1.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

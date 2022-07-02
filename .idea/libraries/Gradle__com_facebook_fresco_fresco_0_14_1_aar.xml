@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:fresco:0.14.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4118843d7542bc787f9d2a2a70b2da40/jetified-fresco-0.14.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4118843d7542bc787f9d2a2a70b2da40/jetified-fresco-0.14.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4118843d7542bc787f9d2a2a70b2da40/jetified-fresco-0.14.1/res" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/res" />
+      <root url="jar://$PROJECT_DIR$/../caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/res" />
+      <root url="file://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/cameraapp_new/caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/res" />
+      <root url="file://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/transforms-2/files-2.1/7ce32c9f14b74b13f213ed6e8dd5d28b/jetified-fresco-0.14.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.14.1/9fc81952395cd1b846b7376c94a09eb24158a0b5/fresco-0.14.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.14.1/9fc81952395cd1b846b7376c94a09eb24158a0b5/fresco-0.14.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.14.1/9fc81952395cd1b846b7376c94a09eb24158a0b5/fresco-0.14.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.14.1/ce5818ff574103768095a27f756dab0a616a9ed5/fresco-0.14.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.14.1/ce5818ff574103768095a27f756dab0a616a9ed5/fresco-0.14.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../visionreallityrepo/caches/modules-2/files-2.1/com.facebook.fresco/fresco/0.14.1/ce5818ff574103768095a27f756dab0a616a9ed5/fresco-0.14.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

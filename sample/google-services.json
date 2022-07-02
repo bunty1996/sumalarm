@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "194662439354",
+    "firebase_url": "https://level-sense-android.firebaseio.com",
+    "project_id": "level-sense-android",
+    "storage_bucket": "level-sense-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194662439354:android:bc431647db33a6dff96583",
+        "android_client_info": {
+          "package_name": "com.level_sense.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194662439354-qsk595peq8met6kshoejtcqhhksbvpsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.level_sense.app",
+            "certificate_hash": "69b60f202312f8fdb999d96cc0b6cd6dc43c5c3d"
+          }
+        },
+        {
+          "client_id": "194662439354-u58oa05mm4voub94vkusf8csm6iu7ba4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmGHb2d5jM6dXk76wCTD7uAWqqiwF-DdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194662439354-u58oa05mm4voub94vkusf8csm6iu7ba4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

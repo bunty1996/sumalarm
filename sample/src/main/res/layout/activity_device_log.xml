@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/toolbar"
+            app:contentInsetStart="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:titleTextColor="@color/blue">
+
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_weight="0.15"
+                    android:id="@+id/toolbarBackImg"
+                    android:layout_width="0dp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_height="@dimen/_40sdp" />
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:text="Toolbar Title"
+                    android:textColor="@color/blue"
+                    app:titleTextAppearance="@style/Toolbar.TitleText"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_weight="0.15"
+                    android:id="@+id/toolbarRefresh"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:tint="@color/blue"
+                    android:padding="@dimen/_8sdp" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.level_sense.app.customScroll.CustomScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBar">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:name="com.security.app.Fragment.ItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/appBar"/>
+
+    </com.level_sense.app.customScroll.CustomScrollView>
+
+    <include layout="@layout/progress_dialog_loader" />
+
+    <TextView
+        android:id="@+id/TvNoData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Record Not Found"
+        android:textSize="@dimen/primary_text_size"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+</RelativeLayout>

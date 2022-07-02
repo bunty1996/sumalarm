@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cart"
+        android:title=""
+        android:visible="false"
+        app:actionLayout="@layout/cart_badge_view"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/refresh"
+        android:title=""
+        android:visible="false"
+        android:icon="@drawable/ic_refresh"
+        app:iconTint="@color/colorAccent"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

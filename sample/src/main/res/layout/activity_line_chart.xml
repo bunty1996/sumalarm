@@ -1,0 +1,313 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:minHeight="@dimen/_40sdp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/blue"
+            app:contentInsetStart="0dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_weight="0.15"
+                    android:id="@+id/toolbarBackImg"
+                    android:layout_width="0dp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_height="@dimen/_40sdp" />
+
+                <TextView
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Toolbar Title"
+                    android:id="@+id/toolbar_title" />
+
+                <ImageView
+                    android:layout_weight="0.15"
+                    android:id="@+id/toolbarRefresh"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:tint="@color/blue"
+                    android:padding="@dimen/_8sdp" />
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/chartLinearLayout"
+        android:layout_below="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lLTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tVToday"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_22sdp"
+                android:background="@drawable/white_with_blue_border_left"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingRight="@dimen/_8sdp"
+                android:text="@string/today"
+                android:textAllCaps="true"
+                android:textColor="@color/blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tVWeek"
+                android:layout_height="@dimen/_22sdp"
+                android:background="@drawable/blue_right"
+                android:gravity="center"
+                android:visibility="visible"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingRight="@dimen/_8sdp"
+                android:text="@string/week"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chartTimeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/twoHrChart"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_22sdp"
+                android:background="@drawable/white_with_blue_border_left"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingRight="@dimen/_8sdp"
+                android:text="@string/two_hr"
+                android:textAllCaps="false"
+                android:textColor="@color/blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/fourHrChart"
+                android:layout_height="@dimen/_22sdp"
+                android:background="@drawable/blue_right"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingRight="@dimen/_8sdp"
+                android:text="@string/four_hr"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/twfourHrChart"
+                android:layout_height="@dimen/_22sdp"
+                android:background="@drawable/blue_right"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingRight="@dimen/_8sdp"
+                android:text="@string/twfour_hr"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:id="@+id/chart_twfour_hour"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="@dimen/_10sdp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:id="@+id/twfourHrChart"-->
+<!--                android:layout_height="@dimen/_22sdp"-->
+<!--                android:background="@drawable/blue_right"-->
+<!--                android:gravity="center"-->
+<!--                android:paddingLeft="@dimen/_8sdp"-->
+<!--                android:paddingRight="@dimen/_8sdp"-->
+<!--                android:text="@string/twfour_hr"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/white"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chartLinearLayout"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:text="@string/raise_label"
+        android:textColor="#afafaf"
+        android:visibility="gone"
+        android:textSize="@dimen/_8sdp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/lLChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tVdropDown"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="@drawable/edt_field_bg"
+            android:drawablePadding="@dimen/_6sdp"
+            android:drawableRight="@drawable/ic_arrow_down"
+            android:elevation="@dimen/_1sdp"
+            android:gravity="center_vertical"
+            android:hint="Select"
+            android:maxLines="1"
+            android:visibility="gone"
+            android:padding="@dimen/_4sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/primary_text_size"
+            />
+
+        <Button
+            android:id="@+id/grow_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="@drawable/white_button_selector"
+            android:clickable="false"
+            android:text="@string/grow"
+            android:textAllCaps="false"
+            android:textColor="@color/black_overlay" />
+
+        <Button
+            android:id="@+id/shrink_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_weight="1"
+            android:background="@drawable/white_button_selector"
+            android:clickable="false"
+            android:text="@string/shrink"
+            android:textAllCaps="false"
+            android:textColor="@color/black_overlay" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reinstall_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_below="@+id/lLChange"
+        android:layout_marginLeft="@dimen/_3sdp"
+        android:layout_marginRight="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_weight="1"
+        android:textSize="@dimen/_9sdp"
+        android:background="@drawable/blue_button_selector"
+        android:text="@string/re_initiate_depth_calibration"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        />
+
+    <ScrollView
+        android:id="@+id/container"
+        android:layout_below="@+id/reinstall_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:orientation="vertical">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <TextView
+              android:id="@+id/txtGraphAdjustable"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/graphs_adjustable"
+              android:textAlignment="center"
+              android:textSize="@dimen/_12sdp"
+              android:padding="@dimen/_4sdp"
+              android:textStyle="bold"
+              android:textColor="@color/black"
+              android:gravity="center"/>
+          <!--android:layout_below="@+id/reinstall_btn"-->
+          <com.level_sense.app.custom.ChartLayout
+              android:id="@+id/chartLayout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/_6sdp"
+              android:layout_marginRight="@dimen/_6sdp"
+              android:orientation="vertical"/>
+      </LinearLayout>
+    </ScrollView>
+
+
+
+    <TextView
+        android:id="@+id/loadDataText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Data Found"
+        android:padding="@dimen/_14sdp"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <include layout="@layout/progress_dialog_loader"/>
+
+</RelativeLayout>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/notiAddScroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_name"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/primary_text_size"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/tVFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edt_field_bg"
+            android:elevation="1dp"
+            android:focusableInTouchMode="true"
+            android:hint="@string/first_name"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:padding="7dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/primary_text_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/last_name"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/primary_text_size"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/tVLastName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edt_field_bg"
+            android:elevation="1dp"
+            android:focusableInTouchMode="true"
+            android:hint="@string/last_name"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:padding="7dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/primary_text_size"/>
+
+
+        <TextView
+            android:id="@+id/tvLblEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/email"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/primary_text_size"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/tVEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/edt_field_bg"
+            android:elevation="1dp"
+            android:focusableInTouchMode="true"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:padding="7dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/primary_text_size"/>
+        <TextView
+            android:id="@+id/tvLblcellPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/cell_phone"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/primary_text_size"
+            android:textStyle="bold"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:layout_marginTop="7dp"
+            android:id="@+id/mobileLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/notiCodePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                app:defaultNameCode="US" />
+
+            <TextView
+                android:id="@+id/notiCodePickerText"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:elevation="1dp"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="------"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size"/>
+
+            <TextView
+                android:id="@+id/tvMobileCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:elevation="1dp"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="------"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/tVcellPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edt_field_bg"
+                    android:elevation="1dp"
+                    android:focusableInTouchMode="true"
+                    android:hint="@string/cell_phone"
+                    android:inputType="phone"
+                    android:maxLength="100"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size"
+                    android:visibility="visible"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:elevation="1dp"
+            android:maxLines="2"
+            android:padding="7dp"
+            android:layout_marginEnd="30dp"
+            android:text="(Enter Number without Country Code)"
+            android:textColor="@color/black"
+            android:layout_gravity="end"
+            android:textSize="10sp"/>
+        <LinearLayout
+            android:id="@+id/tVserviceProviderLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tVlableserviceProvider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/service_provide"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tVserviceProvider"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:elevation="1dp"
+                android:maxLength="100"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="------"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tVserviceProviderHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="7dp"
+            android:elevation="1dp"
+            android:maxLines="1"
+            android:padding="7dp"
+            android:layout_gravity="center"
+            android:text="@string/my_provider_not_here"
+            android:textColor="@color/black"
+            android:textSize="@dimen/primary_text_size"
+            />
+
+        <TextView
+            android:id="@+id/turnOnNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/turnonnotifi"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/primary_text_size"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/type"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tVType"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text="Text message"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:visibility="gone"
+            android:id="@+id/cBEnabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enabled"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/primary_text_size"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_weight="2"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <CheckBox
+                    android:id="@+id/emailCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Enable Email Notification"
+                    android:padding="3dp"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/textCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="3dp"
+                    android:text="Enable Text Notification"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+            <!--<Button
+                android:id="@+id/submit_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_button_selector"
+                android:text="Send Test"
+                android:textColor="@color/white"/>-->
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/testNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/testnnotifi"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/primary_text_size"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/emailLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/email_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_button_selector"
+                android:text="TEST EMAIL"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/sms_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_button_selector"
+                android:text="TEST TEXT SMS"
+                android:textColor="@color/white" />
+
+
+
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_button_selector"
+                android:text="Send Test"
+                android:textColor="@color/white"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/save_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/green_button_selector"
+                android:text="Save contact"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/delete_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/red_button_selector"
+                android:text="Delete contact"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <CheckBox
+                android:id="@+id/voiceCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Enable Voice Notification"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/voice_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/blue_button_selector"
+                android:text="TEST VOICE CALL"
+                android:textColor="@color/white"
+                android:visibility="gone"/>
+
+            <!--<Button
+                 android:id="@+id/submit_btn"
+                 android:layout_width="0dp"
+                 android:layout_height="40dp"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginTop="15dp"
+                 android:layout_weight="1"
+                 android:background="@drawable/blue_button_selector"
+                 android:text="Send Test"
+                 android:textColor="@color/white"/>-->
+            <!--<Button
+                  android:id="@+id/sms_btn"
+                  android:layout_width="0dp"
+                  android:layout_height="40dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginTop="15dp"
+                  android:layout_weight="1"
+                  android:background="@drawable/blue_button_selector"
+                  android:text="TEST TEXT SMS"
+                  android:textColor="@color/white"
+                  android:visibility="gone"/>-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

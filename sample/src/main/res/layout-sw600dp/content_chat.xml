@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp"
+        android:orientation="vertical"
+        android:padding="@dimen/_8sdp">
+
+
+        <LinearLayout
+            android:id="@+id/lLDisplayName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/_12sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/_2sdp"
+                android:layout_toLeftOf="@+id/tVDisplayName"
+                android:background="@color/blue" />
+
+            <TextView
+                android:id="@+id/tVDisplayName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_3sdp"
+                android:text="Temperature"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!--<com.levelsense.app.graph.SplineChart
+              android:id="@+id/lineChart"
+              android:layout_width="match_parent"
+              android:layout_height="400dp"
+              android:layout_below="@+id/tVDisplayName"/>-->
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_220sdp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/graph_icon"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:visibility="gone"
+                android:src="@drawable/ic_img_holder"/>
+
+            <TextView
+                android:id="@+id/noGraphdata"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical|center"
+                android:visibility="gone"
+                android:paddingBottom="@dimen/_3sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9sdp"
+                android:textStyle="bold"
+                />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp" />
+
+</RelativeLayout>
+

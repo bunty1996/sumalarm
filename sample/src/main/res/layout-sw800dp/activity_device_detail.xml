@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:minHeight="@dimen/_40sdp"
+            app:contentInsetStart="0dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/blue"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_weight="0.15"
+                    android:id="@+id/toolbarBackImg"
+                    android:layout_width="0dp"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_height="@dimen/_40sdp" />
+
+                <TextView
+                    android:layout_weight="0.7"
+                    android:gravity="center"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Toolbar Title"
+                    android:id="@+id/toolbar_title" />
+
+
+                <ImageView
+                    android:layout_weight="0.15"
+                    android:id="@+id/toolbarRefresh"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:tint="@color/blue"
+                    android:padding="@dimen/_8sdp" />
+
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar">
+
+        <LinearLayout
+            android:id="@+id/deviceDetailTopLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/device_name"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tVDeviceName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:elevation="1dp"
+                android:hint="@string/device_name"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/have_my_device"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tVHaveMyDevice"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="Time"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/contact_me"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tVcontactMe"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_arrow_down"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="Time"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/firmware_version"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tVFirm"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="@string/firmware_version"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/text_grey"
+
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/subcription_expiration"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tVsubcriptionExpiration"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="@string/subcription_expiration"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/mac_address"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/tVMacAddress"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="@string/mac_address"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/primary_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/last_checkin"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/primary_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tVLastCheckin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/edt_field_bg"
+                android:drawablePadding="10dp"
+                android:elevation="1dp"
+                android:gravity="center_vertical"
+                android:hint="@string/last_checkin"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:textColor="@color/text_grey"
+                android:textSize="@dimen/primary_text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="@string/current_state_of_siren"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/primary_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tVCurrentSirenState"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="Off"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="@string/current_state_of_relay"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/primary_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tVCurrentRelayState"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="Off"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="@string/wireless_signal_strength"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/primary_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tVWirelessSignalStrength"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:drawablePadding="10dp"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:padding="7dp"
+                    android:text="Off"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/primary_text_size" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/blue_button_selector"
+                android:text="@string/update_device"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/progress_dialog_loader" />
+
+</RelativeLayout>
